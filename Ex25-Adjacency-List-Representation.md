@@ -1,26 +1,49 @@
 # Ex25 Adjacency List Representation
-## DATE:
+## DATE:26.4.2025
 ## AIM:
 To write a C program to represent the given graph using the adjacency list.
 
-## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+## Algorithm:
+1.start the program.
+2. Read the number of vertices and number of edges.
+3. Read all edge pairs (source and destination) and store them.
+4. Create a graph using the input edge list.
+5. Print the adjacency list representation of the graph.
+6.End the program.
 
 ## Program:
 ```
 /*
 Program to find and display the priority of the operator in the given Postfix expression
-Developed by: 
-RegisterNumber:  
+int main(void)
+{ int n,i;
+ scanf("%d",&N);
+ scanf("%d",&n);
+ // input array containing edges of the graph (as per the above diagram)
+ // (x, y) pair in the array represents an edge from x to y
+ struct Edge edges[n];
+ for (i = 0; i < n; i++)
+ {
+ // get the source and destination vertex
+ scanf("%d",&edges[i].src);
+ scanf("%d",&edges[i].dest);
+
+ }
+
+ // construct a graph from the given edges
+ struct Graph *graph = createGraph(edges, n);
+ // Function to print adjacency list representation of a graph
+ printGraph(graph);
+ return 0;
+}
+Developed by: DHARSHINIYAA KS
+RegisterNumber: 212223100004
 */
 ```
 
 ## Output:
 
+![image](https://github.com/user-attachments/assets/778cc232-1346-44f9-ae5a-14074406f0cc)
 
 
 ## Result:
